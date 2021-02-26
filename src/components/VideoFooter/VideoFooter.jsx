@@ -10,14 +10,7 @@ export default function VideoFooter({ channel, description, song }) {
         <p>{description}</p>
         <div className="videoFooter_ticker">
           <MusicNoteIcon className="videoFooter_icon" />
-
-          {/* <Ticker mode="smooth">
-            {({ index }) => (
-              <>
-                <p>{song}</p>
-              </>
-            )}
-          </Ticker> */}
+          <p>{song}</p>
         </div>
       </div>
       <img

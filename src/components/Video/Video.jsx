@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./Video.css";
-import VideoFooter from "./VideoFooter";
-import VideoSidebar from "./VideoSidebar";
+import VideoFooter from "../VideoFooter/VideoFooter";
+import VideoSidebar from "../VideoSidebar/VideoSidebar";
 
 export default function Video({
   url,
